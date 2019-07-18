@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /*
+        !important 를 사용하면 우선순위를 강제로 올림.
+      */
+      li{color:red;}
+      #idsel{color:blue;}
+      .classsel{color:green;}
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>html</li>
+      <li id="idsel" class="classsel" style="color:powderblue">css</li>
+      <li>javascript</li>
+    </ul>
+
+    <h3>Cascading Priority</h3>
+    일반적일수록, 우선순위가 낮다.<br>
+    좀 더 구체적일 수록, 우선순위가 높다.
+
+    <ol>
+      <li>style attribute</li>
+      <li>id selector</li>
+      <li>class selector</li>
+      <li>tag selector</li>
+    </ol>
+  </body>
+</html>
