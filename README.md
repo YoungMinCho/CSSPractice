@@ -11,3 +11,6 @@ bing.com에 의한 css 속성 통계자료.
 
 https://www.advancedwebranking.com/html/
 Google 통계에 의한 HTML 통계.
+
+http://www.w3schools.com/css/css_colors.asp
+w3schools css color 부분.
