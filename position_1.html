@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      html{
+        border: 1px solid gray;
+      }
+      div{
+        border: 5px solid tomato;
+        margin: 10px;
+      }
+      #me{
+        /*
+        둘 다 있는 경우 하나는 무시 된다.
+        left > right
+        top > bottom
+        */
+
+        /*default는 static (offset을 무시)*/
+        position: relative;
+        left: 100px;
+        top: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="other">other</div>
+    <div id="parent">
+      parent
+      <div id="me">me</div>
+    </div>
+  </body>
+</html>
