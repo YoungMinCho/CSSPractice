@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /*ul 밑의 모든 li 선택.*/
+      ul li{
+        color:red;
+      }
+
+      /*lecture id 선택자 바로 밑 li 선택*/
+      #lecture>li{
+        border:1px solid red;
+      }
+
+      ul, ol{
+        background-color: powderblue;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+    <ol id="lecture">
+      <li>HTML</li>
+      <li>CSS
+        <ol>
+          <li>selector</li>
+          <li>declaration</li>
+        </ol>
+      </li>
+      <li>JavaScript</li>
+    </ol>
+  </body>
+</html>
