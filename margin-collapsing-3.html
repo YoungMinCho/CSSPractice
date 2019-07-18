@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    /*
+      마진 겹침 3,
+      어떤 태그의 시각적 요소가 없어지면,
+      그 태그의 마진은 위/아래 마진 중
+      가장 큰 마진 값이다.
+    */
+      #empty{
+        margin-top: 50px;
+        margin-bottom: 100px;
+        /* border: 1px solid tomato; */
+      }
+      #normal{
+        background-color: powderblue;
+        margin-top: 100px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div id="empty"></div>
+    <div id="normal">normal</div>
+  </body>
+</html>
