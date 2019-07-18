@@ -17,3 +17,6 @@ w3schools css color 부분.
 
 https://fonts.google.com/?authuser=1
 Google Web Font 사이트.
+
+https://www.w3.org/TR/CSS21/propidx.html
+CSS 속성의 상속 여부를 정리해둔 사이트.

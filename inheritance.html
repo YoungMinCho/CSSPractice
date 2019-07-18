@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /*
+      li{color:red;}
+      h1{color:red;}
+      */
+
+      /* 상속 예시 */
+      html{color:red}
+
+      /* CSS 덮어쓰기, 자식 */
+      #select{color:black;}
+
+      /* 상속되지 않는 속성 예시 */
+      body{border:1px solid red;}
+    </style>
+  </head>
+  <body>
+    <h1>수업내용</h1>
+    <ul>
+      <li>html</li>
+      <li>css</li>
+      <li id="select">javascript</li>
+    </ul>
+  </body>
+</html>
