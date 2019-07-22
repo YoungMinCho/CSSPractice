@@ -20,3 +20,6 @@ Google Web Font 사이트.
 
 https://www.w3.org/TR/CSS21/propidx.html
 CSS 속성의 상속 여부를 정리해둔 사이트.
+
+https://opentutorials.org/module/2398/13712
+멀티컬럼 - 핀터레스트 스타일 레이아웃 구성.
