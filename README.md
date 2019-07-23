@@ -23,3 +23,9 @@ CSS 속성의 상속 여부를 정리해둔 사이트.
 
 https://opentutorials.org/module/2398/13712
 멀티컬럼 - 핀터레스트 스타일 레이아웃 구성.
+
+https://css-tricks.com/almanac/properties/f/filter/
+필터 소개 (1)
+
+https://bennettfeely.com/image-effects/
+필터 소개 (2)
